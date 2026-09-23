@@ -1,0 +1,16 @@
+# Versions this project was built and tested with (Python 3.9).
+Flask==3.0.3
+tensorflow==2.15.0
+keras==2.15.0
+numpy==1.26.4
+Pillow==8.4.0
+firebase-admin==6.5.0
+
+# Only needed by the scripts in experiments/
+streamlit==1.35.0
+
+# Only needed by notebooks/food-classification.ipynb
+pandas==2.2.2
+matplotlib==3.9.0
+
+# requirements-freeze.txt holds the full pip freeze of the original environment.

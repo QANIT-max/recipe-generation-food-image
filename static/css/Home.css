@@ -1,0 +1,449 @@
+.carousel-item {
+    height: 400px;
+}
+
+
+/*Uploading Sectioin */
+.upload {
+    position: relative;
+    display: inline-flex;
+    background: #485461;
+    border-radius: 10px;
+    box-shadow: 0 1.7px 1.4px rgba(0, 0, 0, 0.02),
+        0 4px 3.3px rgba(0, 0, 0, 0.028), 0 7.5px 6.3px rgba(0, 0, 0, 0.035),
+        0 13.4px 11.2px rgba(0, 0, 0, 0.042), 0 25.1px 20.9px rgba(0, 0, 0, 0.05),
+        0 60px 50px rgba(0, 0, 0, 0.07);
+    overflow: hidden;
+    transform: rotate(0);
+}
+
+.upload-info {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    margin-right: 40px;
+    fill: #fff;
+    color: #ffffff;
+}
+
+.upload-filename {
+    padding-left: 8px;
+    transition: opacity 300ms ease;
+}
+
+.upload-filename.inactive {
+    opacity: 0.6;
+}
+
+.upload-button {
+    position: relative;
+    margin: 0;
+    font-size: 100%;
+    padding: 0 8px;
+    font-family: inherit;
+    background: none;
+    border: none;
+    border-radius: inherit;
+    outline: none;
+}
+
+.upload-button-text {
+    padding: 8px 16px;
+    color: white;
+    background-color: #29b586;
+    border-radius: inherit;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 200ms ease, box-shadow 300ms ease;
+}
+
+.upload-button-text:hover,
+.upload-button-text:focus {
+    background-color: #65cca9;
+}
+
+.upload-button-text.inactive {
+    background-color: rgba(255, 255, 255, 0.38);
+    cursor: not-allowed;
+}
+
+.upload-hint {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    transform: translateY(100%);
+}
+
+.upload-progress {
+    position: absolute;
+    top: 90%;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: linear-gradient(270deg,
+            rgba(135, 224, 194, 1) 0%,
+            rgba(101, 204, 169, 1) 50%,
+            rgba(38, 176, 130, 1) 100%);
+    transform-origin: left;
+}
+
+.uploading .upload-button-text {
+    animation: fade-up-out 0.4s 0.4s forwards, button-pulse 500ms forwards;
+}
+
+.uploading .upload-info>* {
+    animation: fade-up-out 0.4s 0.4s forwards;
+}
+
+.uploading .upload-hint {
+    animation: fade-up-in 0.4s 0.8s forwards;
+}
+
+.uploading .upload-progress {
+    animation: load-right 2s 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button-pulse {
+    from {
+        box-shadow: 0 0 0 0 #65cca9;
+    }
+
+    to {
+        box-shadow: 0 0 0 8px rgba(255, 255, 255, 0);
+    }
+}
+
+@keyframes fade-up-out {
+    to {
+        opacity: 0;
+        transform: translateY(-40%);
+    }
+}
+
+@keyframes fade-up-in {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes load-right {
+    0% {
+        left: -100%;
+    }
+
+    50% {
+        left: 0;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+[type="file"] {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+    cursor: pointer;
+}
+
+.drop-area {
+    border: 1px solid #485461;
+}
+
+.drop-area.droppable {
+    border: 1px dashed rgba(255, 255, 255, 0.6);
+}
+
+.drop-area.highlight {
+    border: 1px dashed #29b586;
+}
+
+.choose-file-wrapper {
+    text-align: center;
+    border: black dashed 2px;
+    border-radius: 20px;
+    height: 300px;
+    padding-top: 50px;
+    margin: 100px 200px 100px 200px;
+}
+
+.upload-wrapper {
+    display: inline-block;
+    margin: 2rem auto 0;
+}
+
+h1,
+h2 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 0.3em;
+}
+
+
+/*3D Cards*/
+
+:root {
+    --card-height: 400px;
+    --card-width: calc(var(--card-height) / 1.5);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 100vw; */
+    height: 100vh;
+    margin: 0;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* background: #191c29; */
+}
+
+.card {
+    width: var(--card-width);
+    height: var(--card-height);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+    /* padding: 0 36px; */
+    perspective: 1500px;
+    /* margin: 0 50px; */
+
+    /* margin: auto; Center the cards */
+    margin-bottom: 0;
+    /* Add some space between cards */
+    /* width: 300px; Set a fixed width for the cards */
+    border-radius: 30px;
+
+}
+
+.cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    background-color: black;
+}
+
+.wrapper {
+    transition: all 0.5s;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    border-radius: 30px;
+}
+
+.card:hover .wrapper {
+    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+    box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    border-radius: 30px;
+}
+
+.wrapper::before,
+.wrapper::after {
+    content: "";
+    opacity: 0;
+    width: 100%;
+    height: 80px;
+    transition: all 0.5s;
+    position: absolute;
+    left: 0;
+    border-radius: 30px;
+}
+
+.wrapper::before {
+    top: 0;
+    height: 100%;
+    background-image: linear-gradient(to top,
+            transparent 46%,
+            rgba(12, 13, 19, 0.5) 68%,
+            rgba(12, 13, 19) 97%);
+}
+
+.wrapper::after {
+    bottom: 0;
+    opacity: 1;
+    background-image: linear-gradient(to bottom,
+            transparent 46%,
+            rgba(12, 13, 19, 0.5) 68%,
+            rgba(12, 13, 19) 97%);
+}
+
+.card:hover .wrapper::before,
+.wrapper::after {
+    opacity: 1;
+}
+
+.card:hover .wrapper::after {
+    height: 120px;
+}
+
+.title {
+    color: black;
+    width: 100%;
+    transition: transform 0.5s;
+    margin-top: 320px;
+}
+
+.card:hover .title {
+    transform: translate3d(0%, -50px, 100px);
+    color: rgb(0, 182, 214);
+}
+
+.character {
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    position: absolute;
+    z-index: -1;
+    border-radius: 30px;
+}
+
+.card:hover .character {
+    opacity: 1;
+    transform: translate3d(0%, -30%, 100px);
+    border-radius: 30px;
+}
+
+
+
+/* Flip Animation  */
+.flip {
+    animation: rotateY-anim 3s linear infinite;
+
+}
+
+@keyframes rotateY-anim {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+
+/* Footer  */
+
+
+
+a {
+    color: #6c757d;
+}
+
+a:hover {
+    color: #fec503;
+    text-decoration: none;
+}
+
+::selection {
+    background: #fec503;
+    text-shadow: none;
+}
+
+footer {
+    padding: 2rem 0;
+    background-color: #212529;
+}
+
+.footer-column:not(:first-child) {
+    padding-top: 2rem;
+}
+
+@media (min-width: 768px) {
+    .footer-column:not(:first-child) {
+        padding-top: 0rem;
+    }
+}
+
+.footer-column {
+    text-align: center;
+}
+
+.footer-column .nav-item .nav-link {
+    padding: 0.1rem 0;
+}
+
+.footer-column .nav-item span.nav-link {
+    color: #6c757d;
+}
+
+.footer-column .nav-item span.footer-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer-column .nav-item .fas {
+    margin-right: 0.5rem;
+}
+
+.footer-column ul {
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+    .footer-column ul {
+        text-align: left;
+    }
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+    background-color: #fec503;
+}
+
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #fff;
+    border-radius: 100%;
+    outline: 0;
+    background-color: #1a1d20;
+}
+
+footer .quick-links {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.copyright {
+    color: white;
+}
+
+.fa-ellipsis-h {
+    color: white;
+    padding: 2rem 0;
+}

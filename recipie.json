@@ -1,0 +1,440 @@
+{
+    "apple_pie": [
+        {
+            "title": "Apple Pie",
+            "ingredients": [
+                "2 cups all-purpose flour",
+                "1 cup unsalted butter",
+                "1/2 cup ice water",
+                "1/2 tsp salt",
+                "6-8 Granny Smith apples",
+                "1 cup granulated sugar",
+                "1 tsp ground cinnamon",
+                "1/4 tsp ground nutmeg",
+                "2 tbsp all-purpose flour",
+                "1 tbsp lemon juice"
+            ],
+            "instructions": [
+                "Preheat oven to 425\u00b0F (220\u00b0C).",
+                "Prepare pie crust: Mix flour and salt. Cut in butter until mixture resembles coarse crumbs. Add ice water, 1 tablespoon at a time, until dough forms. Divide in half, shape into disks, and refrigerate for 1 hour.",
+                "Peel, core, and slice apples.",
+                "In a large bowl, mix apples, sugar, cinnamon, nutmeg, flour, and lemon juice.",
+                "Roll out one disk of dough and fit into a 9-inch pie plate. Fill with apple mixture.",
+                "Roll out the second disk of dough and place over apples. Trim, seal, and flute edges. Cut slits in the top crust to allow steam to escape.",
+                "Bake for 45-50 minutes or until crust is golden brown and filling is bubbly.",
+                "Cool on a wire rack before serving."
+            ]
+        }
+
+    ],
+    "baby_back_ribs": [
+        {
+            "title": "Baby Back Ribs",
+            "ingredients": [
+                "2 racks baby back ribs",
+                "1 cup BBQ sauce",
+                "1 tbsp salt",
+                "1 tbsp black pepper",
+                "1 tbsp paprika",
+                "1 tsp garlic powder",
+                "1 tsp onion powder"
+            ],
+            "instructions": [
+                "Preheat the grill to medium-high heat.",
+                "Season the ribs with salt, pepper, paprika, garlic powder, and onion powder.",
+                "Grill ribs for 20 minutes, turning occasionally.",
+                "Brush ribs with BBQ sauce and grill for another 10 minutes.",
+                "Serve with additional BBQ sauce."
+            ]
+        }
+    ],
+    "baklava": [
+        {
+            "title": "Baklava",
+            "ingredients": [
+                "1 package phyllo dough",
+                "2 cups chopped walnuts",
+                "1 cup butter",
+                "1 cup sugar",
+                "1 cup honey",
+                "1 tsp cinnamon"
+            ],
+            "instructions": [
+                "Preheat oven to 350\u00b0F (175\u00b0C).",
+                "Layer phyllo dough in a baking dish, brushing with butter between layers.",
+                "Mix walnuts with sugar and cinnamon, and sprinkle between layers of dough.",
+                "Bake for 45 minutes.",
+                "In a saucepan, combine honey and water, bring to a boil, and pour over baked baklava.",
+                "Let it cool before serving."
+            ]
+        }
+    ],
+    "beef_carpaccio": [
+        {
+            "title": "Beef Carpaccio",
+            "ingredients": [
+                "8 oz beef tenderloin",
+                "2 tbsp olive oil",
+                "1 tbsp lemon juice",
+                "1/2 cup arugula",
+                "Parmesan cheese",
+                "Salt",
+                "Pepper"
+            ],
+            "instructions": [
+                "Freeze beef for 1 hour.",
+                "Slice beef thinly.",
+                "Arrange beef slices on a plate.",
+                "Drizzle with olive oil and lemon juice.",
+                "Top with arugula and shaved Parmesan.",
+                "Season with salt and pepper."
+            ]
+        }
+    ],
+    "beef_tartare": [
+        {
+            "title": "Beef Tartare",
+            "ingredients": [
+                "8 oz beef tenderloin",
+                "1 tbsp capers",
+                "1 tbsp Dijon mustard",
+                "1 tbsp Worcestershire sauce",
+                "1 egg yolk",
+                "1 tbsp finely chopped shallots",
+                "Salt and pepper to taste",
+                "1 tbsp chopped parsley"
+            ],
+            "instructions": [
+                "Chop beef finely.",
+                "Mix beef with capers, Dijon mustard, Worcestershire sauce, egg yolk, shallots, salt, and pepper.",
+                "Shape into a patty and serve with toast or crackers.",
+                "Garnish with chopped parsley."
+            ]
+        }
+    ],
+    "beet_salad": [
+        {
+            "title": "Beet Salad",
+            "ingredients": [
+                "3 beets",
+                "2 tbsp olive oil",
+                "1 tbsp balsamic vinegar",
+                "1/4 cup goat cheese",
+                "1/4 cup walnuts"
+            ],
+            "instructions": [
+                "Boil or roast beets until tender, then slice.",
+                "Toss beets with olive oil and balsamic vinegar.",
+                "Top with crumbled goat cheese and walnuts.",
+                "Season with salt and pepper."
+            ]
+        }
+    ],
+    "beignets": [
+        {
+            "title": "Beignets",
+            "ingredients": [
+                "2 cups flour",
+                "1/2 cup sugar",
+                "2 tsp baking powder",
+                "1/2 tsp salt",
+                "1 cup milk",
+                "Oil for frying"
+            ],
+            "instructions": [
+                "Mix flour, sugar, baking powder, and salt.",
+                "Add milk and stir to form a dough.",
+                "Heat oil in a deep fryer to 375\u00b0F (190\u00b0C).",
+                "Drop spoonfuls of dough into hot oil and fry until golden brown.",
+                "Drain on paper towels and dust with powdered sugar."
+            ]
+        }
+    ],
+    "bibimbap": [
+        {
+            "title": "Bibimbap",
+            "ingredients": [
+                "2 cups rice",
+                "1/2 cup carrots",
+                "1/2 cup spinach",
+                "1/2 cup bean sprouts",
+                "2 eggs",
+                "Gochujang sauce"
+            ],
+            "instructions": [
+                "Cook rice according to package instructions.",
+                "Saut\u00e9 carrots, spinach, and bean sprouts separately.",
+                "Fry eggs sunny-side up.",
+                "Serve rice in bowls, topped with vegetables and eggs.",
+                "Add a dollop of gochujang sauce and mix well before eating."
+            ]
+        }
+    ],
+    "bread_pudding": [
+        {
+            "title": "Bread Pudding",
+            "ingredients": [
+                "4 cups cubed bread",
+                "2 cups milk",
+                "1/2 cup sugar",
+                "3 eggs",
+                "1 tsp vanilla extract",
+                "1/2 tsp ground cinnamon"
+            ],
+            "instructions": [
+                "Preheat oven to 350\u00b0F (175\u00b0C).",
+                "Place bread cubes in a baking dish.",
+                "In a bowl, mix together milk, sugar, eggs, vanilla extract, and cinnamon.",
+                "Pour mixture over bread cubes and let soak for 30 minutes.",
+                "Bake for 45 minutes until set and golden brown.",
+                "Serve warm or cold."
+            ]
+        }
+    ],
+    "breakfast_burrito": [
+        {
+            "title": "Breakfast Burrito",
+            "ingredients": [
+                "4 tortillas",
+                "4 eggs",
+                "1/2 cup cheese",
+                "1/2 cup cooked sausage",
+                "1/2 cup salsa"
+            ],
+            "instructions": [
+                "Scramble eggs in a skillet.",
+                "Warm tortillas in a microwave or skillet.",
+                "Fill tortillas with eggs, cheese, sausage, and salsa.",
+                "Fold and roll tortillas to form burritos.",
+                "Serve warm."
+            ]
+        }
+    ],
+    "bruschetta": [
+    {
+        "title": "Bruschetta",
+        "ingredients": [
+            "6-8 slices Italian bread",
+            "2 cups cherry tomatoes, diced",
+            "1/4 cup fresh basil, chopped",
+            "3 garlic cloves, minced",
+            "1/4 cup extra virgin olive oil",
+            "Salt and pepper to taste",
+            "1 tbsp balsamic vinegar (optional)"
+        ],
+        "instructions": [
+            "Preheat the oven to 400°F (200°C).",
+            "Arrange bread slices on a baking sheet and brush both sides with olive oil.",
+            "Bake for 5-7 minutes or until golden brown and crisp.",
+            "In a bowl, combine diced tomatoes, basil, garlic, and remaining olive oil.",
+            "Season with salt and pepper to taste, and add balsamic vinegar if desired.",
+            "Top each bread slice with the tomato mixture.",
+            "Serve immediately."
+        ]
+    }
+],
+    "caesar_salad": [
+        {
+            "title": "Caesar Salad",
+            "ingredients": [
+                "1 head romaine lettuce",
+                "1/2 cup croutons",
+                "1/4 cup Parmesan cheese",
+                "1/4 cup Caesar dressing"
+            ],
+            "instructions": [
+                "Chop romaine lettuce.",
+                "Toss lettuce with croutons and Parmesan cheese.",
+                "Drizzle with Caesar dressing and toss to coat.",
+                "Serve immediately."
+            ]
+        }
+    ],
+    "cannoli": [
+        {
+            "title": "Cannoli",
+            "ingredients": [
+                "12 cannoli shells",
+                "2 cups ricotta cheese",
+                "1/2 cup powdered sugar",
+                "1 tsp vanilla extract",
+                "1/4 cup chocolate chips"
+            ],
+            "instructions": [
+                "Mix ricotta cheese, powdered sugar, and vanilla extract.",
+                "Fold in chocolate chips.",
+                "Fill cannoli shells with the ricotta mixture.",
+                "Dust with additional powdered sugar before serving."
+            ]
+        }
+    ],
+    "caprese_salad": [
+        {
+            "title": "Caprese Salad",
+            "ingredients": [
+                "4 tomatoes",
+                "8 oz mozzarella cheese",
+                "1/4 cup fresh basil leaves",
+                "2 tbsp olive oil",
+                "1 tbsp balsamic vinegar",
+                "Salt and pepper to taste"
+            ],
+            "instructions": [
+                "Slice the tomatoes and mozzarella cheese.",
+                "Layer the tomato and mozzarella slices on a serving platter.",
+                "Tuck the fresh basil leaves between the slices.",
+                "Drizzle with olive oil and balsamic vinegar.",
+                "Season with salt and pepper to taste.",
+                "Serve immediately."
+            ]
+        }
+    ],
+    "carrot_cake": [
+        {
+            "title": "Carrot Cake",
+            "ingredients": [
+                "2 cups flour",
+                "2 cups sugar",
+                "1 cup vegetable oil",
+                "4 eggs",
+                "2 cups grated carrots",
+                "1 tsp baking soda",
+                "1 tsp baking powder",
+                "1 tsp cinnamon",
+                "1/2 tsp salt"
+            ],
+            "instructions": [
+                "Preheat oven to 350\u00b0F (175\u00b0C).",
+                "Mix flour, sugar, baking soda, baking powder, cinnamon, and salt.",
+                "Add oil and eggs, mix well.",
+                "Stir in grated carrots.",
+                "Pour into a greased 9x13 inch pan.",
+                "Bake for 40-45 minutes.",
+                "Cool and frost as desired."
+            ]
+        }
+    ],
+    "ceviche": [
+        {
+            "title": "Ceviche",
+            "ingredients": [
+                "1 lb fresh white fish",
+                "1/2 cup lime juice",
+                "1 red onion",
+                "1 chili pepper",
+                "1/4 cup cilantro",
+                "Salt to taste"
+            ],
+            "instructions": [
+                "Cut fish into small cubes.",
+                "Marinate fish in lime juice for 15 minutes.",
+                "Slice red onion thinly.",
+                "Chop chili pepper and cilantro.",
+                "Mix all ingredients and season with salt.",
+                "Serve chilled."
+            ]
+        }
+    ],
+    "cheesecake": [
+        {
+            "title": "Cheesecake",
+            "ingredients": [
+                "2 cups graham cracker crumbs",
+                "1/2 cup melted butter",
+                "2 cups cream cheese",
+                "1 cup sugar",
+                "3 eggs",
+                "1 tsp vanilla extract",
+                "1 cup sour cream"
+            ],
+            "instructions": [
+                "Preheat oven to 325\u00b0F (165\u00b0C).",
+                "Mix graham cracker crumbs with melted butter and press into a baking pan.",
+                "Beat cream cheese and sugar until smooth.",
+                "Add eggs one at a time, then vanilla extract.",
+                "Pour over crust and bake for 50 minutes.",
+                "Cool and refrigerate before serving."
+            ]
+        }
+    ],
+    "cheese_plate": [
+        {
+            "title": "Cheese Plate",
+            "ingredients": [
+                "1 wedge of Brie",
+                "1 wedge of Gouda",
+                "1 wedge of Blue Cheese",
+                "1 wedge of Cheddar",
+                "Assorted crackers",
+                "Grapes",
+                "Nuts",
+                "Honey"
+            ],
+            "instructions": [
+                "Arrange the cheeses on a large platter.",
+                "Add assorted crackers around the cheeses.",
+                "Fill in the gaps with grapes and nuts.",
+                "Serve with a small bowl of honey for drizzling ."
+            ]
+        }
+    ],
+    "chicken_curry": [
+        {
+            "title": "Chicken Curry",
+            "ingredients": [
+                "1 lb chicken breast, diced",
+                "1 onion, chopped",
+                "2 garlic cloves, minced",
+                "1 tbsp ginger, minced",
+                "2 tbsp curry powder",
+                "1 can coconut milk",
+                "1 cup chicken broth",
+                "2 tbsp olive oil",
+                "Salt and pepper to taste"
+            ],
+            "instructions": [
+                "Heat olive oil in a large pan over medium heat.",
+                "Add onions, garlic, and ginger. Saut\u00e9 until onions are translucent.",
+                "Add curry powder and cook for 2 minutes, stirring constantly.",
+                "Add chicken and cook until browned.",
+                "Pour in coconut milk and chicken broth.",
+                "Bring to a boil, then reduce heat and simmer for 20 minutes.",
+                "Season with salt and pepper to taste.",
+                "Serve with rice."
+            ]
+        }
+    ],
+    "chicken_quesadilla": [
+        {
+            "title": "Chicken Quesadilla",
+            "ingredients": [
+                "2 cups cooked chicken breast, shredded",
+                "1 cup shredded cheddar cheese",
+                "1 cup shredded Monterey Jack cheese",
+                "1/2 cup diced bell pepper",
+                "1/2 cup diced onion",
+                "1/4 cup chopped fresh cilantro",
+                "8 flour tortillas",
+                "1 tbsp olive oil",
+                "1/2 tsp ground cumin",
+                "1/2 tsp chili powder",
+                "Salt and pepper to taste"
+            ],
+            "instructions": [
+                "In a large skillet, heat olive oil over medium heat.",
+                "Add diced bell pepper and onion. Sauté until soft, about 5 minutes.",
+                "Add shredded chicken, ground cumin, chili powder, salt, and pepper. Stir to combine and cook for an additional 2 minutes.",
+                "Remove from heat and stir in chopped fresh cilantro.",
+                "Heat a separate skillet over medium heat.",
+                "Place one tortilla in the skillet and sprinkle with a layer of shredded cheddar and Monterey Jack cheese.",
+                "Spread a portion of the chicken mixture over the cheese.",
+                "Top with another layer of shredded cheese and place a second tortilla on top.",
+                "Cook until the bottom tortilla is golden brown and the cheese is melted, about 2-3 minutes.",
+                "Carefully flip the quesadilla and cook until the other side is golden brown.",
+                "Remove from skillet and repeat with remaining tortillas and filling.",
+                "Cut each quesadilla into wedges and serve warm."
+            ]
+        }
+    ]
+
+}

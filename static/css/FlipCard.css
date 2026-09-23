@@ -1,0 +1,69 @@
+.box-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.widget-container {
+    transition: all 0.3s ease;
+}
+
+.widget-container .common-flip-style {
+    width: 280px;
+    height: 280px;
+    cursor: pointer;
+}
+
+.widget-container .common-flip-style .common-box-style {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all .6s ease-in-out;
+    border-radius: 10px;
+}
+
+.flip-box {
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.flip-box .box-front {
+    transform: none;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid rgb(84, 84, 84);
+}
+
+.flip-box .box-back {
+    padding: 20px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    transform: rotateX(0) rotateY(-180deg);
+    background: #000000;
+    border: 5px solid orange;
+}
+
+.flip-box:hover .box-front {
+    transform: rotateX(0) rotateY(180deg);
+}
+
+.flip-box:hover .box-back {
+    transform: none;
+}
+
+.box-content-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    transform: translateZ(90px);
+}
