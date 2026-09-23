@@ -1,0 +1,26 @@
+# Secrets. Never commit these.
+credentials/
+firebase_config.json
+static/js/config.js
+.env
+
+# Trained models are hundreds of megabytes and GitHub refuses files over 100 MB.
+*.keras
+*.hdf5
+*.h5
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Node and editor and OS leftovers
+node_modules/
+.vscode/
+Thumbs.db
+.DS_Store
